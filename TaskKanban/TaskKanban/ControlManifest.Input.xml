@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control
+    namespace="AB"
+    constructor="TaskKanban"
+    version="0.0.3"
+    display-name-key="Task Kanban"
+    description-key="Drag and drop task board"
+    control-type="virtual">
+
+    <external-service-usage enabled="false" />
+
+    <!-- Properties -->
+    <property
+      name="ItemsJson"
+      display-name-key="Items JSON"
+      description-key="Tasks displayed on the board"
+      of-type="Multiple"
+      usage="input"
+      required="false"
+    />
+
+    <!-- Outputs -->
+    <property
+      name="ChangeJson"
+      display-name-key="Change JSON"
+      description-key="Latest task status change"
+      of-type="Multiple"
+      usage="output"
+    />
+    <property
+      name="SyncToken"
+      display-name-key="Sync token"
+      description-key="Changes when the app finishes synchronizing data"
+      of-type="Whole.None"
+      usage="input"
+      required="false"
+    />
+
+    <resources>
+      <code path="index.ts" order="1" />
+      <platform-library name="React" version="16.14.0" />
+      <css path="css/TaskKanban.css" order="1" />
+    </resources>
+  </control>
+</manifest>

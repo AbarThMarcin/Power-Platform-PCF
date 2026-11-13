@@ -1,0 +1,13 @@
+cr_projectname,cr_department,cr_technology,cr_projectstatus,cr_priority,cr_startdate,cr_targetdate,cr_estimatedhourssaved,cr_implementationcost,cr_progress,cr_businesscritical
+Invoice Processing,Finance,Power Automate,Development,High,2026-10-01,2020-01-15,45.5,12000,65,Yes
+Leave Requests,HR,Power Apps,Live,Low,2026-01-01,2026-06-01,12,4000,100,No
+Ticket Routing,IT,Python,Idea,Medium,2026-11-01,2026-12-15,8,2500,20,Yes
+Vendor Onboarding,Operations,UiPath,Analysis,High,2026-02-01,2020-03-01,30,8000,40,Yes
+Expense Audit,Finance,Power Automate,On Hold,Low,2025-05-01,2025-09-01,15,3000,10,No
+Payroll Sync,HR,Python,Development,Medium,2026-04-01,2026-08-20,22,6500,55,Yes
+Access Reviews,IT,Power Apps,Live,High,2026-01-15,2026-03-01,18,5000,100,Yes
+Contract Intake,Operations,Power Automate,Idea,Low,2026-07-01,2026-11-30,9,2200,5,No
+Claims Triage,Finance,UiPath,Analysis,Medium,2026-03-01,2020-12-01,28,9100,35,Yes
+Offer Letters,HR,Power Apps,Development,High,2026-05-01,2026-07-15,11,2800,70,No
+Log Shipping,IT,Python,On Hold,Medium,2025-11-01,2025-12-01,6,1500,15,Yes
+Shift Planning,Operations,Power Automate,Live,Low,2026-02-10,2026-04-01,14,3300,90,No

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control
+    namespace="AB"
+    constructor="ProjectGrid"
+    version="0.0.3"
+    display-name-key="Project Grid"
+    description-key="Automation project grid"
+    control-type="virtual">
+
+    <external-service-usage enabled="false" />
+
+    <data-set name="records" display-name-key="Records" />
+
+    <!-- Properties -->
+    <property
+      name="SelectedIds"
+      display-name-key="Selected IDs"
+      description-key="JSON array of selected record IDs"
+      of-type="Multiple"
+      usage="output"
+    />
+
+    <resources>
+      <code path="index.ts" order="1" />
+      <platform-library name="React" version="16.14.0" />
+      <css path="css/ProjectGrid.css" order="1" />
+    </resources>
+
+    <feature-usage>
+      <uses-feature name="Utility" required="true" />
+      <uses-feature name="WebAPI" required="true" />
+    </feature-usage>
+  </control>
+</manifest>

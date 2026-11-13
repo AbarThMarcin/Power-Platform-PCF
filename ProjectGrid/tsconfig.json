@@ -1,0 +1,10 @@
+{
+    "extends": "./node_modules/pcf-scripts/tsconfig_base.json",
+    "compilerOptions": {
+        "jsx": "react",
+        "moduleResolution": "bundler",
+        "typeRoots": ["node_modules/@types"],
+        "types": ["powerapps-component-framework"]
+    },
+    "include": ["ProjectGrid/**/*.ts", "ProjectGrid/**/*.tsx"]
+}
